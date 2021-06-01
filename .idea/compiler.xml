@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tool-docx" />
+        <module name="tool-app" />
+        <module name="tool-excel" />
+        <module name="tool-pdf" />
+        <module name="tool-common" />
+        <module name="tool-doc" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="tool-app" options="-parameters" />
+      <module name="tool-common" options="-parameters" />
+      <module name="tool-doc" options="-parameters" />
+      <module name="tool-docx" options="-parameters" />
+      <module name="tool-excel" options="-parameters" />
+      <module name="tool-pdf" options="-parameters" />
+    </option>
+  </component>
+</project>
